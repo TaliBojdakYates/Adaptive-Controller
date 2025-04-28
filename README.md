@@ -128,11 +128,12 @@ This file contains the torque lookup table for treadmill walking.
 ### `Data/`
 
 This directory contains the data files used for training and testing the activity classifier model.
+**Left empty user should download data from dataset provided by Georia Tech
 
 ### `final_test/`
 
 This directory contains the data files used for creating the final test dataset.
-
+**Filled only with combined data to get the combined data download the data from Georgia Tech and run created_test_data
 ## Reproducing Results
 
 To reproduce the results of this project, follow these steps:
