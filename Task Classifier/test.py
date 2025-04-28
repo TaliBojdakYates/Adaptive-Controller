@@ -37,7 +37,7 @@ model.eval()
 scaler = joblib.load(SCALER_PATH)
 
 
-csv_path = 'final_test_dataset.csv'
+csv_path = 'final_test/final_test_dataset.csv'
 df = pd.read_csv(csv_path)
 angles = df['gon_knee_sagittal']
 true_torques = df['knee_angle_r_moment']
